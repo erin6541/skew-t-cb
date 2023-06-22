@@ -1,10 +1,23 @@
-name: cookbook-dev
+name: skew-t-cb
 channels:
   - conda-forge
 dependencies:
+  - python=3.9
   - jupyter-book
   - jupyterlab
-  - jupyter_server
+  - matplotlib
+  - cartopy
+  - dask
+  - zarr
+  - pandas
+  - jupyter_server<2
+  - numpy
+  - xarray
+  - metpy
+  - seaborn
+  - imageio
+  - netCDF4
   - pip
   - pip:
-      - sphinx-pythia-theme
+    - sphinx-pythia-theme
+    
