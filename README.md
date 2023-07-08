@@ -1,19 +1,19 @@
 <img src="thumbnail.png" alt="thumbnail" width="300"/>
 
-# (Replace_with_your_title) Cookbook
+# MetPy Skew-T Cookbook
 
 [![nightly-build](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml)
-[![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/cookbook-template/main?labpath=notebooks)
+[![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/erin6541/skew-t-cb/HEAD)
 
-This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., _working with radar data in Python_)
+This Project Pythia Cookbook covers creating various styles of Skew-T Plots using MetPy.
 
 ## Motivation
 
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
+This cookbook will walkthrough creating a simple Skew-T plot with MetPy. This simple Skew-T will serve as a base to add different features on top of with MetPy.  
 
 ## Authors
 
-[First Author](@first-author), [Second Author](@second-author), etc. _Acknowledge primary content authors here_
+[Erin Rhoades](https://github.com/erin6541)
 
 ### Contributors
 
@@ -23,15 +23,24 @@ This Project Pythia Cookbook covers ... (replace `...` with the main subject of 
 
 ## Structure
 
-(State one or more sections that will comprise the notebook. E.g., _This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."_ Then, describe each section below.)
+This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."
 
-### Section 1 ( Replace with the title of this section, e.g. "Foundations" )
+This cookbook consists of multiple notebooks. The initial notebook provides a comprehensive tutorial on constructing a basic sounding. Subsequent notebooks showcase example workflows with advanced features that build upon the fundamental sounding code.
 
-(Add content for this section, e.g., "The foundational content includes ... ")
+### Foundational Sounding 
 
-### Section 2 ( Replace with the title of this section, e.g. "Example workflows" )
+This notebook is an indepth tutorial going over creating a Skew-T. This will build our base code that is used in the Example Workflows section.
 
-(Add content for this section, e.g., "Example workflows include ... ")
+### Example Workflows
+
+Example workflows include:
+- Sounding with Advanced Features 
+- Skew-T Analysis
+- Skew-T with Hodograph Inset
+- Skew-T with Separate Hodograph
+- Sounding with Xarray Dataset
+- Sounding Plotter
+- Common Sounding Calculations 
 
 ## Running the Notebooks
 
@@ -58,22 +67,20 @@ Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyt
 
 If you are interested in running this material locally on your computer, you will need to follow this workflow:
 
-(Replace "cookbook-example" with the title of your cookbooks)
-
-1. Clone the `https://github.com/ProjectPythia/cookbook-example` repository:
+1. Clone the `https://github.com/ProjectPythia/skew-t-cb` repository:
 
    ```bash
-    git clone https://github.com/ProjectPythia/cookbook-example.git
+    git clone https://github.com/ProjectPythia/skew-t-cb.git
    ```
 
-1. Move into the `cookbook-example` directory
+1. Move into the `skew-t-cb` directory
    ```bash
-   cd cookbook-example
+   cd skew-t-cb
    ```
 1. Create and activate your conda environment from the `environment.yml` file
    ```bash
    conda env create -f environment.yml
-   conda activate cookbook-example
+   conda activate skew-t-cb
    ```
 1. Move into the `notebooks` directory and start up Jupyterlab
    ```bash
