@@ -17,6 +17,7 @@ dependencies:
   - seaborn
   - imageio
   - netCDF4
+  - siphon
   - pip
   - pip:
     - sphinx-pythia-theme
